@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"h2_embedded-18a47e036cc-7fac30777b8639a2": {
+			"provider": "h2",
+			"driver": "h2_embedded",
+			"name": "TRUE",
+			"save-password": true,
+			"configuration": {
+				"database": "jdbc:h2:file:./auth_db",
+				"url": "jdbc:h2:jdbc:h2:file:./auth_db;DB_CLOSE_ON_EXIT\u003dFALSE;AUTO_SERVER\u003dTRUE",
+				"configurationType": "URL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
