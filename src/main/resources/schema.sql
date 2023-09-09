@@ -6,3 +6,5 @@ CREATE TABLE IF NOT EXISTS Bruker (
     password VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
 );
+
+

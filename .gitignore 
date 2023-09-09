@@ -32,5 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 
-### H2 file ###
-auth_db.mv.db
+### H2 file ### auth_db.mv.db
